@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: auto 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 1rem;
+    list-style: none;
+    column-gap: 1rem;
+}
+
+
+nav {
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+footer {
+    background-color: black;
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo-nav {
+    height: 30px;
+    flex-basis: 10%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 920px;
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 60%;
+}
+
+.link-container {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: flex-end;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 6rem;
+}
+
+.card-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card {
+    position: relative;
+    flex-basis: 30%;
+    flex-grow: 1;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+.credits {
+    display: flex;
+}
+
+.credits-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-credits {
+    display: flex;
+}
+
+.text-color {
+    color: white;
+}
+
+.heart-container {
+    padding: 2px 10px;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: 2;
+}
+
+.img-1 {
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.img-2 {
+    display: none;
+    position: relative;
+}
+
+.img-container:hover .img-1 {
+    display: none;
+}
+
+.img-cotainer:hover .img-2 {
+    display: block;
+}
+
+.heart-container:hover {
+    color: red;
+}
+
+.etichetta {
+    position: absolute;
+    left: 0%;
+    bottom: 5rem;
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+}
+
+.etichetta-red {
+    background-color: red;
+    padding: 6px;
+
+}
+
+.etichetta-green {
+    background-color: green;
+    padding: 6px;
+
+}
+
+.etichetta>ul {
+    column-gap: 4px;
+    font-size: 15px;
+}
+
+.price-red {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
